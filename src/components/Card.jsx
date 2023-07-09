@@ -4,7 +4,7 @@ import { ImLocation } from "react-icons/im";
 function Card({ heading, image, click }) {
   return (
     <div
-      className="relative w-60 h-40 rounded-lg overflow-hidden cursor-pointer"
+      className="relative w-80 h-56 rounded-lg overflow-hidden cursor-pointer"
       onClick={click}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
