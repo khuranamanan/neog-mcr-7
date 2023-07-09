@@ -24,7 +24,7 @@ function CountriesPage() {
         Top Countries in {findCon.name} for your travel
       </h1>
 
-      <div className="flex gap-3 flex-wrap justify-center">
+      <div className="flex gap-3 flex-wrap justify-center mb-4">
         {findCon.countries.map((con) => {
           function handleNavigation() {
             navigate(`${con.id}`);

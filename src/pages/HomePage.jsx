@@ -12,7 +12,7 @@ function HomePage() {
       <p className="text-blue-600 font-medium">
         Top Continents for your next holiday
       </p>
-      <div className="flex gap-3 flex-wrap justify-center">
+      <div className="flex gap-3 flex-wrap justify-center mb-4">
         {data.continents.map((con) => {
           function handleNavigation() {
             navigate(`/${con.id}`);

@@ -28,7 +28,7 @@ function DestPage() {
         Top Places in {findCountry.name} for your travel
       </h1>
 
-      <div className="flex gap-3 flex-wrap justify-center">
+      <div className="flex gap-3 flex-wrap justify-center mb-4">
         {findCountry.destinations.map((country) => {
           function handleNavigation() {
             navigate(`${country.id}`);

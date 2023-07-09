@@ -29,7 +29,7 @@ function PlacePage() {
       </button>
       <h1 className="text-4xl font-bold">{findPlace.name}</h1>
 
-      <div className="flex gap-3 flex-wrap justify-center">
+      <div className="flex gap-3 flex-wrap justify-center mb-4">
         <div className="max-w-[300px] aspect-square">
           <img
             src={findPlace.image}
